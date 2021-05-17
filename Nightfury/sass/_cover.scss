@@ -1,0 +1,32 @@
+// 
+//COVER - BACKGROUND
+//----------------------
+
+//Backgroung image
+#cover{
+    position: relative;
+    height: auto;
+    min-height: 750px;
+}
+
+#cover .container{
+    position: relative;
+    z-index: 1;
+}
+
+.cover{
+    width: 1920px;
+    height: 1200px;
+    position: absolute;
+    top: -45%; left: 50%;
+    margin-left: -960px;
+}
+
+.fadecovers{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 775px;
+    overflow: hidden;
+}

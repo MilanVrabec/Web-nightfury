@@ -1,0 +1,53 @@
+// 
+// FOOTER
+//------------------
+
+footer{
+
+    text-align: left;
+
+    .logo{
+        vertical-align: middle;
+        padding: 20px 15px 15px 0;
+    }
+
+    .author{
+        padding-top: 10px;
+
+        a{
+            color: $color-contact-footer;
+            font-weight: 600;
+        }
+    }
+
+    .nav-footer{
+        color: $color-navbar-footer;
+
+        a{
+        
+            color: $color-navbar-footer;
+            padding: 0 6px;
+
+            &:hover,
+            &:focus{
+                color: darken($color-navbar-footer, 20%);
+                transition: .3 all ease-in-out;
+            }
+        }
+
+        display: inline-block;
+        float: right;
+
+        padding-top: 25px;
+
+        li{
+            &:before{
+                content: ' / '; 
+             }
+
+            &:last-child:after{
+                content: ' / ';
+            }
+        }       
+    }
+}

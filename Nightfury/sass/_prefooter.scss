@@ -1,0 +1,33 @@
+// 
+// PREFOOTER
+//------------------------
+
+.prefooter{
+    background-color: $color-bg-prefooter;
+    color: $color-prefooter;
+    margin-top: 100px;
+
+    .menu{
+        float: none;
+        padding-top: 10px;   
+
+        .fa{
+            font-size: 26px;
+            vertical-align: middle;
+        }
+    }
+
+    h3{
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    span{
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-top: 5px;
+    }
+
+    padding: 20px 0;
+}

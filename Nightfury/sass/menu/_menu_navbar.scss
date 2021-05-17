@@ -1,0 +1,53 @@
+// 
+// Menu - NAVBAR
+//--------------------
+
+.logo{
+    float: left;
+
+    padding: 42px 0;
+}
+
+.navigation{
+    float: right;
+    font-size: 0;
+
+    a,.fa{
+        display: block;
+    }
+
+    .fa{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    a{
+        color: $color-icon;
+        font-size: 14px;
+        text-transform: uppercase;
+        width: 130px;
+        height: 100px;
+        line-height: 30px;
+        padding: 0;
+
+
+        &:hover,
+        &:focus{
+            color: $color-sl-navbar;
+            transition: .3s all ease-in-out;
+        }
+    }
+
+    li{
+        border-left: 1px solid $color-icon;
+       
+        &:last-child{
+            border-right: 1px solid $color-icon;
+        }
+    }
+
+    .selected a{
+        color: $color-sl-navbar;
+    }
+}
+

@@ -1,0 +1,85 @@
+// 
+//CONTACT
+//-------------------
+
+
+.contact{
+
+    aside{
+        padding-bottom: 50px;
+
+        p, .personal li{
+            display: block;
+        }
+
+        a{
+            color: $font-color;
+        }
+
+        text-align: left;
+    }    
+
+    .post-header {
+	    background: url('../img/map.jpg') center no-repeat;
+        min-height: 750px;
+        max-width: 100%;
+    }
+
+    h2{
+        font-size: 32px;
+        margin: 50px 0;
+    }
+
+    button{
+        color: #fff;
+        background-color: $color-bg-button;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+    }
+
+
+}
+
+.contact-form,
+.information{
+    float: left;
+}
+
+.information{
+    padding-top: 15px;
+}
+
+.contact-form{
+    max-width: 35em;
+    width: 100%;
+    text-align: left;
+
+    margin-right: 50px;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input,
+textarea{
+    color: $font-color;
+    border: 2px solid rgba(#000, 0.1);
+    border-radius: 5px;
+
+    background-color: rgba(#fff, 0.9);
+    outline: none;
+
+    padding: 12px;
+    margin-top: 10px;
+
+    display: block;
+    max-width: 100%;
+    width: 100%;
+
+    &:focus{
+        border-color: rgba(#000, 0.5);
+    }
+}

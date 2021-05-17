@@ -1,0 +1,59 @@
+//
+//General Rule
+//---------------------
+
+
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after, 
+.group:after,
+.menu:after {
+    content: " "; 
+    display: table; 
+}
+
+.container:after,
+.group:after,
+.menu:after {
+    clear: both;
+}
+
+.container,
+.group,
+.menu {
+    *zoom: 1;
+}
+
+body{
+    font-size: $font-size;
+    font-family: $font-family-sans;
+    font-weight: $font-weight;
+
+    background-color: $color-bg;
+
+    a{
+        text-decoration: none;
+    }
+
+    ul{
+        margin: 0;
+    }
+
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

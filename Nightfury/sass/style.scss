@@ -1,0 +1,40 @@
+// MAIN
+
+@import 'variables';            //Variables
+@import 'general';              //General rule
+
+//Typografie
+@import 'typografie';
+
+//MENU
+@import 'menu/menu';            // Menu - Rule
+    //Contact
+    @import 'menu/menu_contact-bar'; // Menu - Contact
+    @import 'menu/menu_navbar';      // Menu - Navbar    
+    @import 'menu/menu_controls';
+
+//GALLERY
+@import 'gallery';
+
+//BUTTON
+@import 'button';
+
+//PAGES
+@import 'page/portfolio';
+@import 'page/contact';
+@import 'page/home';
+
+//PREFOOTER
+@import 'prefooter';
+
+//FOOTER
+@import 'footer';
+
+
+// JS
+    //LIGHTBOX
+    @import 'lightbox';
+    //ANIMATION
+    @import 'animation';
+    //CHANGE BACKGROUNG IMAGE
+    @import 'cover';

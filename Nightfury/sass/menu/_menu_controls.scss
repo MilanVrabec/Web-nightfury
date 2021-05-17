@@ -1,0 +1,25 @@
+// 
+// MENU - CONTROLS
+//----------------------------
+
+.controls{
+    a{
+        color: $font-color-controls;
+        font-size: 22px;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 5px;
+
+        &:hover,
+        &:focus{
+            color: #fff;
+            background-color: $color-bg-controls;
+            transition: .3s all ease-in-out;
+        }
+    }
+
+    .selected a{
+        color: #fff;
+        background-color: $color-sl-control;
+    }
+}

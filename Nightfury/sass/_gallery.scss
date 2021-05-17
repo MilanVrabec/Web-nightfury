@@ -1,0 +1,21 @@
+// 
+//Gallery
+//--------------------------
+
+.gallery-set{
+    text-align: left;
+    img{
+        max-width: 373px;
+        height: auto;
+
+        opacity: $opacity;
+    }
+    line-height: 0;
+    font-size: 0;
+
+    padding-bottom: 5px;
+    padding-top: 70px;
+    margin: 0 25px;
+}
+
+
